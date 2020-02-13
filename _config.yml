@@ -12,7 +12,7 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 
 
 # Header and footer text
-header_text: dev | think | stuty  # Change Blog header text
+header_text: dev | think | stuy  # Change Blog header text
 header_feature_image: assets/img/pexels/triangular.jpeg
 footer_text: >
   Powered by Jekyll with yunjigo
