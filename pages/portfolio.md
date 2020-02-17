@@ -1,7 +1,7 @@
 --- 
 layout: page
-title : Portfolio 
-permalink: /portfolio/
+title : TechTree 
+permalink: /techTree/
 subtitle: "Projects I am working on" 
 feature-img: "assets/img/pexels/main.jpg"
 tags: [Archive]
