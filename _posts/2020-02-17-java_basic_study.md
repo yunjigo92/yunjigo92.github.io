@@ -53,7 +53,18 @@ POJO라는 용어는 이후에 주로 특정 자바 모델이나 기능,
 
 
 ![Image Alt 텍스트](http://app.jjalbang.today/jj1G9.gif)
-
+<!-- To change color of links in the page -->
+<style>
+  
+    .feature-image a { color: rgb(36,41,46) !important; }
+    div#post-nav a { color: rgb(36,41,46) !important; }
+    footer a { color: rgb(36,41,46) !important; }
+    .site-header nav a:hover {  color: rgb(36,41,46) !important; }
+    header#main { background-color: rgb(36,41,46) !important; }
+    header#main {
+    background-repeat:no-repeat
+  }
+</style>
 
 
 그럼 이만!!
