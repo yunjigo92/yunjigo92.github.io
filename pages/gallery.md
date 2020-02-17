@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Gallery
+title: TechTree
 subtitle: From the pexels folder
-permalink: /gallery/
+permalink: /TechTree/
 gallery_path: "assets/img/tech"
-tags: [Gallery, Photo]
+feature-img: "assets/img/pexels/disco-full.webp"
+tags: [tech]
 ---
 
 This is a photo gallery made from the static files in the `assets/img/pexels` folder. 
