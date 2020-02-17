@@ -6,9 +6,10 @@ feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About, Archive]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+## 고윤지
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+정신차리고 공부하려는 **주우우니어** 개발자 <br>
+알고리즘을 좋아하지만 잘하진 못한다..또르륵 정복하고 말겠어.
+
+![유노윤호] ("https://t1.daumcdn.net/cfile/tistory/99F91F395CB0552938")
