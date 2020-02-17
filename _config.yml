@@ -13,7 +13,7 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 
 # Header and footer text
 header_text: dev | think | study  # Change Blog header text
-header_feature_image: assets/img/pexels/main2.jpg
+header_feature_image: assets/img/pexels/main3.jpg
 footer_text: >
   Powered by Jekyll with yunjigo
 
