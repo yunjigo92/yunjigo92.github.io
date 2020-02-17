@@ -4,7 +4,7 @@ title: TechTree
 subtitle: From the pexels folder
 permalink: /TechTree/
 gallery_path: "assets/img/tech"
-feature-img: "assets/img/pexels/disco-full.webp"
+feature-img: "assets/img/pexels/disco.jpg"
 tags: [tech]
 ---
 
