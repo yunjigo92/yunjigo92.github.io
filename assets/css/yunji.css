@@ -74,6 +74,9 @@ blockquote {
     font-size: 30px !important;   
 }
 
-i,a{
-    color : #262626;
+i,a,#text{
+    color : #f07178;  
+}
+span>i{
+     color : #262626;
 }
