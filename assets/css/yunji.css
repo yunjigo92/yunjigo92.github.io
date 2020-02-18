@@ -2,3 +2,7 @@ div.highlighter-rouge, figure.highlight {
     background: #ffffcc !important;
     color: #000032 !important;
 }
+
+p{
+ line-height: 180% !important;
+}
