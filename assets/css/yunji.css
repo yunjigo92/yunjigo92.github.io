@@ -4,8 +4,9 @@
 
 
 
-body{
+body,div,h1,h2,h3,h4,h5,p{
     font-family: "Gothic A1" !important;
+    line-height: 180% !important;
 
 }
 
@@ -16,9 +17,6 @@ div.highlighter-rouge, figure.highlight {
     font-family: "Gothic A1" !important;
 }
 
-p{
- line-height: 180% !important;
-}
 
 .markdown-body blockquote {
     padding: 0 1em;
