@@ -71,5 +71,9 @@ blockquote {
 }
 
 a.clear{
-    font-size: 25px !important;
+    font-size: 23px !important;
+}
+
+.site-title{
+    font-size: 30px !important;   
 }
