@@ -29,7 +29,6 @@ JAVA 기본기에 대한 질문을 많이 받게 된다.<br><br>
 
 이제부터 잘하면 되지 뭐!!! (흑흑.. 사실 오늘 멘탈 털림 또륵😭) <br><br><br>
 
-그럼 정신차리러 이만
 
 ![Image Alt 텍스트](http://app.jjalbang.today/jj1G9.gif)
 
