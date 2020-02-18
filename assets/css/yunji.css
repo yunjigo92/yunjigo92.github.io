@@ -6,3 +6,9 @@ div.highlighter-rouge, figure.highlight {
 p{
  line-height: 180% !important;
 }
+
+.markdown-body blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: .4em solid #ffa008c9 !important;
+}
