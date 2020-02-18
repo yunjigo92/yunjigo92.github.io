@@ -2,10 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=Jua:400');
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900');
 
+
+
+body{
+    font-family: "Gothic A1" !important;
+
+}
+
 div.highlighter-rouge, figure.highlight {
     background: #f7f16c17 !important;
     color: #000032 !important;
     font-size: 18px !important;
+    font-family: "Gothic A1" !important;
 }
 
 p{
