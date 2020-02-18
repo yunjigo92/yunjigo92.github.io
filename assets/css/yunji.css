@@ -37,7 +37,7 @@ div.excerpt{
     font-size: 1.2em;
 }
 
-div.highlighter-rouge, figure.highlight {
+div.highlighter-rouge,figure.highlight {
     background: #ffc10787 !important;
     color: #000032 !important;
     font-size: 18px !important;
@@ -98,6 +98,6 @@ i,a,#text{
 }
 
 
-.language-java {
+.language-java div.highlighter-rouge{
     background: #263238 !important;     
 }
