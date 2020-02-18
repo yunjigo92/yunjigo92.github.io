@@ -96,3 +96,8 @@ i,a,#text{
     border: 1px solid #ff444e9c;
     text-decoration: none;
 }
+
+
+.language-java {
+    background: #263238 !important;     
+}
