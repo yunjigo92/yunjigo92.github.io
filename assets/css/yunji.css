@@ -89,3 +89,9 @@ i,a,#text{
     text-decoration: none;
     color: #f07178;
 }
+
+.button-link:hover, a.button:hover {
+    background: #ff4852b3;
+    color: #fff;
+    text-decoration: none;
+}
