@@ -91,8 +91,8 @@ i,a,#text{
 }
 
 .button-link:hover, a.button:hover {
-    background: #262626;
+    background: #ff444e9c;
     color: #fff;
-    border: 1px solid #262626;
+    border: 1px solid #ff444e9c;
     text-decoration: none;
 }
