@@ -100,3 +100,7 @@ i,a,#text{
 .language-java .highlighter-rouge{
     background: #263238 !important;     
 }
+
+.language-plaintext .highlighter-rouge{
+    background: #ffc10787 !important;
+}
