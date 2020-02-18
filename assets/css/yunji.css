@@ -80,3 +80,6 @@ i,a,#text{
 span>i{
      color : #262626;
 }
+.tag-anchor a {
+    color: #f07178;
+}
