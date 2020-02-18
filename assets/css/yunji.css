@@ -58,3 +58,18 @@ blockquote {
     background-color: #f0717824;
     box-shadow: 0 2px 2px #f0717833;
 }
+
+
+.site-header .avatar {
+    height: 4em;
+    width: 4em;
+}
+
+.site-header a {
+    color: #383838;
+    font-family: "Jua" !important;
+}
+
+a.clear{
+    font-size: 25px !important;
+}
