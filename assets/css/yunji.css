@@ -98,6 +98,6 @@ i,a,#text{
 }
 
 
-.language-java div.highlighter-rouge{
+.language-java .highlighter-rouge{
     background: #263238 !important;     
 }
