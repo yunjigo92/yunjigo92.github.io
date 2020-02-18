@@ -77,7 +77,7 @@ blockquote {
 i,a,#text{
     color : #f07178;  
 }
-nav a{
+.fa-bars, .fa-search, .fa-tags, .fa-stack i{
      color : #262626;
 }
 .tag-anchor a {
