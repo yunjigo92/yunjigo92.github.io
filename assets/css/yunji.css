@@ -32,6 +32,12 @@ h5{
     font-weight: 800;
 }
 
+
+div.excerpt{
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
 div.highlighter-rouge, figure.highlight {
     background: #f7f16c17 !important;
     color: #000032 !important;
