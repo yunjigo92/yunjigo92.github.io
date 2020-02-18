@@ -78,13 +78,9 @@ i,a,#text{
     color : #f07178;  
 }
 .fa-bars, .fa-search, .fa-tags, .fa-facebook-square,
-.fa-envelope-square, .fa-stack i{
+.fa-envelope-square, .fa-circle{
      color : #262626;
 }
 .tag-anchor a {
     color: #f07178;
-}
-
-.fa-inverse {
-    color: #fff;
 }
