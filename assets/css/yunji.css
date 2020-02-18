@@ -52,9 +52,9 @@ div.highlighter-rouge, figure.highlight {
 }
 
 blockquote {
-    border-left: 6px solid #6c757d ;
+    border-left: 6px solid #f07178;
     margin: 1em 1em;
     padding: 0.75em 1em;
-    background-color: #6c757d0f;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    background-color: #f0717824;
+    box-shadow: 0 2px 2px #f0717833;
 }
