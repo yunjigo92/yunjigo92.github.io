@@ -84,3 +84,8 @@ i,a,#text{
 .tag-anchor a {
     color: #f07178;
 }
+
+.post-link:hover {
+    text-decoration: none;
+    color: #f07178;
+}
