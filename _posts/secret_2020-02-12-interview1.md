@@ -4,7 +4,7 @@ title: 이직을 생각하게 된 솔직한 계기        # Title of the page
 author: yunjigo                   
 color: rgb(36,41,46)                            # Add the specified color as feature image, and change link colors in post
 bootstrap: true                                   # Add bootstrap to the page
-tags: [interview,면접,이직,인터뷰]
+tags: []
 excerpt_separator: <!--more-->
 ---
 
