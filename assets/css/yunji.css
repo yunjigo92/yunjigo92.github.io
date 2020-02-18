@@ -37,8 +37,8 @@ div.excerpt{
     font-size: 1.2em;
 }
 
-div.highlighter-rouge,figure.highlight {
-    background: #ffc10787 !important;
+.highlighter-rouge,figure.highlight {
+    background: #ffc10787 ;
     color: #000032 !important;
     font-size: 18px !important;
     font-family: "Gothic A1" !important;
@@ -96,7 +96,6 @@ i,a,#text{
     border: 1px solid #ff444e9c;
     text-decoration: none;
 }
-
 
 .language-java .highlighter-rouge{
     background: #263238 !important;     
