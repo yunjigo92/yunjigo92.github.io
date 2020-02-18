@@ -11,6 +11,12 @@ body,div,h1,h2,h3,h4,h5,p,a{
 
 }
 
+h1 {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+
 div.highlighter-rouge, figure.highlight {
     background: #f7f16c17 !important;
     color: #000032 !important;
