@@ -4,7 +4,7 @@ title: JAVA - 추상클래스      # Title of the page
 author: yunjigo                   
 color: rgb(36,41,46)                          # Add the specified color as feature image, and change link colors in post
 bootstrap: true                                   # Add bootstrap to the page
-tags: [java,interface,study]
+tags: [java,추상클래스,abstract,study]
 excerpt_separator: <!--more-->
 ---
 
