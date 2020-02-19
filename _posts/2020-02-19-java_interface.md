@@ -4,7 +4,7 @@ title: JAVA - Interface with 다형성      # Title of the page
 author: yunjigo                   
 color: rgb(36,41,46)                          # Add the specified color as feature image, and change link colors in post
 bootstrap: true                                   # Add bootstrap to the page
-tags: [java,interface,study]
+tags: [java,interface,다형성,study]
 excerpt_separator: <!--more-->
 ---
 
