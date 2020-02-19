@@ -4,7 +4,7 @@ title: JAVA - Interface VS 추상클래스     # Title of the page
 author: yunjigo                   
 color: rgb(36,41,46)                          # Add the specified color as feature image, and change link colors in post
 bootstrap: true                                   # Add bootstrap to the page
-tags: [java,interface,다형성,study]
+tags: [java,interface,추상메서드,study]
 excerpt_separator: <!--more-->
 ---
 
@@ -17,7 +17,7 @@ excerpt_separator: <!--more-->
 #### 공통점
 먼저, 공통점으로는 추상 클래스, 인터페이스 모두 **인스턴스화 될 수 없다.**
 그래서 겉만 보기에는 인터페이스와 동일하게 보일 수 있다.
-
+<br><br>
 
 #### 차이점
 
