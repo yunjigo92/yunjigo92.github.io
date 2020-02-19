@@ -60,7 +60,7 @@ interface 자식인터페이스 extends 부모인터페이스{
 
 ### 인터페이스의 다중상속
 
-자바의 class는 다중 상속이 허용되지 않는다. 이런 점을 보완하여 interface는 다중 속이 가능한다.    
+자바의 class는 다중 상속이 허용되지 않는다. 이런 점을 보완하여 interface는 다중 상속이 가능하다.    
 
 ```java
 interface Parent1{
@@ -175,6 +175,7 @@ Java에서 다형성은 상속과 인터페이스를 통해 이루어진다.
 
 
 <br><br><br>
+이러한 이유들 때문에 자바에서는 인터페이스를 사용한다고 한다.
 그럼 이만!!
 
 ![Image Alt 텍스트](http://app.jjalbang.today/jj1G9.gif)
