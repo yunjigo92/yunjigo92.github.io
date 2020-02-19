@@ -135,30 +135,40 @@ void tranfer(Account fromAcc, Account toAcc, int amount, User user,Logger logger
   //로그를 찍는다.
   logger.info("돈을 바꿔 바꿔~~~~~~바꾸는중이야~~~");
 
+   //비지니스 로직 가득가득 담겨있어 
   if (!isUserAuthorised(user, fromAcc)) {
     logger.info("User has no permission.");
     throw new UnauthorisedUserException();
   }
+      ...... (많은 로직)....
 
-  if (fromAcc.getBalance() < amount) {
-    logger.info("Insufficient funds.");
-    throw new InsufficientFundsException();
-  }
-
-  fromAcc.withdraw(amount);
-  toAcc.deposit(amount);
-
-  database.commitChanges();  // Atomic operation.
-
+   //로그를 또 찍는다.
   logger.info("Transaction successful.");
  }
 
+//위와 같이 구현하게되면 모든 기능에 해당 로그를 찍는 코드를 생성해야한다.
+//이를 위해 아래처럼 바꾸어 사용하자.
 
+aspect Logger {
+  void Bank.transfer(Account fromAcc, Account toAcc, int amount, User user, Logger logger)  {
+    logger.info("돈을 바꿔 바꿔~~~~~~바꾸는중이야~~~");
+  }
+  //이와 같이하면, 해당 메소드가 호출될때마다 로그가 찍힌다. 깔-끔하고 유지보수도 간단한 것을 알 수 있다.
+}
+```
+
+<br><br>
+
+
+### 스프링프레임 워크의 기본동작
+
+```
+Request -> DispatcherServlet -> HandlerMapping -> Controller -> Service -> DAO -> DB    
+-> DAO -> Service -> Controller -> DispatcherServlet -> ViewResolver -> View -> Response
 ```
 
 
-
-
+이 밖에도 스프링에 대해서는 공부할게 많지만, 다음장에서 다루기로 하고
 그럼 이만!!
 
 ![Image Alt 텍스트](http://app.jjalbang.today/jj1G9.gif)
@@ -166,7 +176,7 @@ void tranfer(Account fromAcc, Account toAcc, int amount, User user,Logger logger
 
 
 >출처    
-https://mygumi.tistory.com/257 [마이구미의 HelloWorld]     
-https://loustler.io/languages/oop_interface_and_abstract_class/     
-https://private.tistory.com/20 [공부해서 남 주자]     
-자바의 정석
+https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%96%B4_%EB%B0%98%EC%A0%84
+https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC
+https://intro0517.tistory.com/151
+
