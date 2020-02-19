@@ -2,7 +2,7 @@
 layout: post
 title: Spring Framework 정리     # Title of the page
 author: yunjigo                   
-color: rgb(36,41,46)                          # Add the specified color as feature image, and change link colors in post
+color: rgb(95, 185, 46)                         # Add the specified color as feature image, and change link colors in post
 bootstrap: true                                   # Add bootstrap to the page
 tags: [java,spring,framework,DI,study,AOP,IoC]
 excerpt_separator: <!--more-->
