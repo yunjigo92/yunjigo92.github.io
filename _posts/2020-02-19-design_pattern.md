@@ -4,7 +4,7 @@ title: Design Pattern      # Title of the page
 author: yunjigo                   
 color: rgb(36,41,46)                          # Add the specified color as feature image, and change link colors in post
 bootstrap: true                                   # Add bootstrap to the page
-tags: [java,추상클래스,abstract,study]
+tags: [java,디자인패턴,Design Pattern,템플릿메소드패턴,study]
 excerpt_separator: <!--more-->
 ---
 
