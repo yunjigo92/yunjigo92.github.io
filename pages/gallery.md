@@ -1,15 +1,14 @@
 ---
 layout: page
 title: TechTree
-subtitle: From the pexels folder
+subtitle: It's a technology I can do.
 permalink: /TechTree/
 gallery_path: "assets/img/tech"
 feature-img: "assets/img/pexels/disco.jpg"
-tags: [tech]
+tags: [tech,java,spring,jquery,ajax,javascript,eclipse,jsp,servlet,redis,oracle,mysql,ibais,mybatis,git,github,svn,strust2,aws,secureCRT,starUML]
 ---
 
-This is a photo gallery made from the static files in the `assets/img/pexels` folder. 
-I wanted to create automatically a simple gallery from a folder without having to create a markdown page as you would for the portfolio.
+
 
 
 {% include gallery.html gallery_path=page.gallery_path %}
