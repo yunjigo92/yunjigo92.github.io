@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 그냥 적어보는 일상 & 유비벨록스모바일      # Title of the page
+title: 그냥 적어보는 일상 & 회사    # Title of the page
 author: yunjigo
 feature-img: "/img/etc/company (3).jpg"              # Add a feature-image to the post
 thumbnail: "/img/etc/company (3).jpg"   # Add a thumbnail image on blog view
