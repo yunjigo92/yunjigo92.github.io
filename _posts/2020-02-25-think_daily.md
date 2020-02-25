@@ -4,7 +4,7 @@ title: 그냥 적어보는 일상 with 회사      # Title of the page
 author: yunjigo
 feature-img: "/img/etc/company (3).jpg"              # Add a feature-image to the post
 thumbnail: "/img/etc/company (3).jpg"   # Add a thumbnail image on blog view
-color: rgb(36,41,46)                          # Add the specified color as feature image, and change link colors in post
+color: rgb(134,21,17)                         # Add the specified color as feature image, and change link colors in post
 bootstrap: true                                   # Add bootstrap to the page
 tags: [일기,일상,유비벨록스모바일]
 excerpt_separator: <!--more-->
