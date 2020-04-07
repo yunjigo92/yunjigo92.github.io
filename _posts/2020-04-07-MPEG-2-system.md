@@ -20,24 +20,20 @@ excerpt_separator: <!--more-->
 
 <!--more-->
 
-### MPEG 종류
-
-      
-
- `※ MPEG-1,2,4는 주로 압축 부호화 관련 표준이고, MPEG-7,21은 압축 부호화와 관련 없음`
-
-  4. MPEG-7  (1999~, ISO/IEC 15938)
-     - 멀티미디어 컨텐츠의 검색/저장을 위한 표현형식(메타데이터)의 정의 표준
-        . 내용기반 비디오 서술자, 오디오 서술자, 멀티미디어 서술구조, 메타데이터 압축
-          방식 등
-
-  5. MPEG-21  (2000.5~, ISO/IEC 21000)
-     - 멀티미디어 컨텐츠의 생성,관리,유통에 이르는 전자상거래에 대한 프레임워크
-
 
 <br><br><br>
 ### MPEG 시스템 계층구조
 ![Image Alt 텍스트](http://www.ktword.co.kr/img_data/3682_1.JPG)
+      
+여기서 추가로, MUX / DEMUX란 ? 
+      
+- 멀티플렉서 (Multiplexer)
+![Image Alt 멀티플렉서](http://postfiles11.naver.net/20160522_202/lagrange0115_1463894040126oH6zm_PNG/%B1%D7%B8%B21.png?type=w773)
+멀티플렉서는 MUX, MPX라고 줄여 부르기도 하며, 여러 개의 입력 중 하나를 선택해 출력으로 내보내는 논리 회로를 말합니다. 멀티플렉서는 그림 1과 같이 입력 단과 출력단 이외에 어떠한 입력단을 출력으로 내보낼지 결정해주는 control input 핀이 따로 있습니다. Control input 핀에 원하는 신호를 내보내면 원하는 입력이 출력으로 내보내지는 논리 회로입니다.     
+      
+- 디멀티플렉서 (Demultiplexer)      
+![Image Alt 멀티플렉서](http://postfiles4.naver.net/MjAxOTA1MjhfMjk0/MDAxNTU5MDQxMzI4Mjkz.rJJSdyRZtSP2cqv9iu0RElJzLjlKqQtseF2kt-3URGkg.ErFcceZk0lUuVjItkgPThusAOMLg6xrM39QhGfVOuxQg.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC2.png?type=w773)
+디멀티플렉서는 DEMUX라고 줄여 부르기도 하며, 한 개의 입력을 어느 출력단에 내보낼지 선택할 수 있는 기능을 가진 논리 회로를 말합니다. 디멀티플렉서는 멀티플렉서와 마찬가지로 그림 6과 같이 입력단과 출력단 이외에 어떠한 출력단으로 내보낼지 결정해주는 control input 핀이 따로 있습니다. Control input 핀에 원하는 신호를 내보내면 원하는 출력핀으로 내보내지는 논리 회로입니다.    
       
       
 ### MPEG 시스템 다중화 및 동기화
@@ -70,8 +66,9 @@ excerpt_separator: <!--more-->
      - 수송스트림 (TS,Transport Stream)  
         . 전송 오류가 있는 전송채널을 통해 전달되도록 규격화된 스트림
 
+각 비트스트림에 대해서는 상세하게 또 포스팅을 하도록 하겠다.
 
-<hr/>  
+
 <br><br><br>
 
 ![Image Alt 텍스트](http://app.jjalbang.today/jj1G9.gif)
@@ -80,4 +77,5 @@ excerpt_separator: <!--more-->
 
 
 >출처    
-[정보통신기술용어해설]http://www.ktword.co.kr/abbr_view.php?nav=2&id=54
+[정보통신기술용어해설]http://www.ktword.co.kr/abbr_view.php?nav=2&id=54     
+멀티플렉서 (Multiplexer), 디멀티플렉서 (Demultiplexer)|작성자 엠에스리http://blog.naver.com/PostView.nhn?blogId=lagrange0115&logNo=220716574603&parentCategoryNo=&categoryNo=13&viewDate=&isShowPopularPosts=false&from=postView 
