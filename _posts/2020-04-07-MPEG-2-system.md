@@ -24,17 +24,7 @@ excerpt_separator: <!--more-->
 <br><br><br>
 ### MPEG 시스템 계층구조
 ![Image Alt 텍스트](http://www.ktword.co.kr/img_data/3682_1.JPG)
-      
-여기서 추가로, MUX / DEMUX란 ? 
-      
-- 멀티플렉서 (Multiplexer)
-![Image Alt 멀티플렉서](http://postfiles11.naver.net/20160522_202/lagrange0115_1463894040126oH6zm_PNG/%B1%D7%B8%B21.png?type=w773)
-멀티플렉서는 MUX, MPX라고 줄여 부르기도 하며, 여러 개의 입력 중 하나를 선택해 출력으로 내보내는 논리 회로를 말합니다. 멀티플렉서는 그림 1과 같이 입력 단과 출력단 이외에 어떠한 입력단을 출력으로 내보낼지 결정해주는 control input 핀이 따로 있습니다. Control input 핀에 원하는 신호를 내보내면 원하는 입력이 출력으로 내보내지는 논리 회로입니다.     
-      
-- 디멀티플렉서 (Demultiplexer)      
-![Image Alt 멀티플렉서](http://postfiles4.naver.net/MjAxOTA1MjhfMjk0/MDAxNTU5MDQxMzI4Mjkz.rJJSdyRZtSP2cqv9iu0RElJzLjlKqQtseF2kt-3URGkg.ErFcceZk0lUuVjItkgPThusAOMLg6xrM39QhGfVOuxQg.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC2.png?type=w773)
-디멀티플렉서는 DEMUX라고 줄여 부르기도 하며, 한 개의 입력을 어느 출력단에 내보낼지 선택할 수 있는 기능을 가진 논리 회로를 말합니다. 디멀티플렉서는 멀티플렉서와 마찬가지로 그림 6과 같이 입력단과 출력단 이외에 어떠한 출력단으로 내보낼지 결정해주는 control input 핀이 따로 있습니다. Control input 핀에 원하는 신호를 내보내면 원하는 출력핀으로 내보내지는 논리 회로입니다.    
-      
+ 
       
 ### MPEG 시스템 다중화 및 동기화
 
@@ -50,6 +40,18 @@ excerpt_separator: <!--more-->
   2. MPEG 동기화
      - 비디오 및 오디오 미디어 간, 엔코더 및 디코더 간의 동기화
        ![Image Alt 텍스트](http://www.ktword.co.kr/img_data/3682_3.JPG)
+       
+            
+여기서 추가로, MUX / DEMUX란 ? 
+      
+- 멀티플렉서 (Multiplexer)
+![Image Alt 멀티플렉서](http://postfiles11.naver.net/20160522_202/lagrange0115_1463894040126oH6zm_PNG/%B1%D7%B8%B21.png?type=w773) 
+멀티플렉서는 MUX, MPX라고 줄여 부르기도 하며, 여러 개의 입력 중 하나를 선택해 출력으로 내보내는 논리 회로를 말합니다. 멀티플렉서는 그림 1과 같이 입력 단과 출력단 이외에 어떠한 입력단을 출력으로 내보낼지 결정해주는 control input 핀이 따로 있습니다. Control input 핀에 원하는 신호를 내보내면 원하는 입력이 출력으로 내보내지는 논리 회로입니다.     
+      
+- 디멀티플렉서 (Demultiplexer)      
+![Image Alt 멀티플렉서](http://postfiles4.naver.net/MjAxOTA1MjhfMjk0/MDAxNTU5MDQxMzI4Mjkz.rJJSdyRZtSP2cqv9iu0RElJzLjlKqQtseF2kt-3URGkg.ErFcceZk0lUuVjItkgPThusAOMLg6xrM39QhGfVOuxQg.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC2.png?type=w773)  
+디멀티플렉서는 DEMUX라고 줄여 부르기도 하며, 한 개의 입력을 어느 출력단에 내보낼지 선택할 수 있는 기능을 가진 논리 회로를 말합니다. 디멀티플렉서는 멀티플렉서와 마찬가지로 그림 6과 같이 입력단과 출력단 이외에 어떠한 출력단으로 내보낼지 결정해주는 control input 핀이 따로 있습니다. Control input 핀에 원하는 신호를 내보내면 원하는 출력핀으로 내보내지는 논리 회로입니다.    
+      
 
 
 ### MPEG 비트 스트림 구분
