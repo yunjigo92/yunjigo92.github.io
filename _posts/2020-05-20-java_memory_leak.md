@@ -2,9 +2,9 @@
 layout: post
 title: java memory leak,자바 메모리 누수     # Title of the page
 author: yunjigo                   
-color: rgb(201,72,51)                          # Add the specified color as feature image, and change link colors in post
+color: rgb(36,41,46)                          # Add the specified color as feature image, and change link colors in post
 bootstrap: true                                   # Add bootstrap to the page
-tags: [study,java,memory leak]
+tags: [study,java,memory leak,자바 메모리누수]
 excerpt_separator: <!--more-->
 ---
 
