@@ -156,7 +156,7 @@ do {
 이런 현상은 Wait Method를 이용해 대기를 하는 경우도 마찬가지이다. 특정 Thread가 장시간 notify를 통해 Wait상태의 Thread들을 깨워주지 않으면 수많은 Thread 들이 WAITING이나 TIMED_WAITING 상태에서 대기를 하게 된다.  
   
 ### Thread의 종류
- #### 데몬 Thread(Daemon Thread)  
+#### 데몬 Thread(Daemon Thread)  
  데몬 Thread는 다른 비 데몬 Thread가 없다면 동작을 중지한다. 사용자가 직접 Thread를 생성하지 않더라도 Java 애플리케이션이 기본적으로 여러 개의 Thread를 생성한다.  
  즉, 데몬 Thread는 다른 일반 Thread(비데몬 Thread)의 작업을 돕는 보조적인 역할을 수행하는 Thread이다.  
  일반 Thread가 모두 종료되면 데몬 Thread는 강제적으로 자동 종료되는데, 그 이유는 데몬 Thread는 일반 Thread의 보조 역할을 수행하므로 일반 Thread가 모두 종료되고 나면 데몬 Thread의 존재의 의미가 없기 때문이다.  
@@ -164,11 +164,11 @@ do {
    
    
 
- #### 비 데몬 Thread(Non-daemon Thread)
+#### 비 데몬 Thread(Non-daemon Thread)
  'static void main(String[] args)' Method가 실행되는 Thread는 비 데몬 Thread로 생성되고, 이 Thread가 동작을 중지하면 다른 데몬 Thread도 같이 동작을 중지하게 되는 것이다.  
  자바에서 비 데몬 Thread는 아래와 같다.  
- * VM Background Thread: Compile, Optimization, Garbage Collection 등 JVM 내부의 일을 수행하는 Background Thread 들이다.
- * Main Thread: main(String[] args) Method 를 실행하는 Thread 로 사용자가 명시적으로 Thread 를 수행하지 않더라도 JVM 은 하나의 Main Thread 를 생성해서 Application 을 구 동한다. Hot Spot JVM 에서는 VM Thread 라는 이름이 부여된다.  
+  * VM Background Thread: Compile, Optimization, Garbage Collection 등 JVM 내부의 일을 수행하는 Background Thread 들이다.
+  * Main Thread: main(String[] args) Method 를 실행하는 Thread 로 사용자가 명시적으로 Thread 를 수행하지 않더라도 JVM 은 하나의 Main Thread 를 생성해서 Application 을 구 동한다. Hot Spot JVM 에서는 VM Thread 라는 이름이 부여된다.  
   * User Thread: 사용자에 의해 명시적으로 생성된 Thread 들이다 . java.lang.Thread 를 상속 (extends) 받거나 , java.lang.Runnable 인터페이스를 구현 (implements) 함으로써 User Thread 를 생성할 수 있다.  
   
   
@@ -206,7 +206,9 @@ lang.Thread 클래스로 생성하면 'Thread-숫자' 형식으로 생성된다.
 DefaultThreadFactory 를 사용하면 pool-숫자-thread-숫자 형식으로 생성된다.  
 하지만 이런 디폴트이름들로 Thread가 가득하다면 덤프를 읽기가 매우 힘들다. 멀티Thread 프로그래밍을 직접할 경우, setName을 이용해서 직관적인 Thread명을 써주는게 좋다.  
 
-##### 우선순위 : Thread 우선순위 (스펙에서도 안중요하다고 함)  
+##### 우선순위  
+- Thread 우선순위  
+
 ##### Thread 아이디  
 - 16진수
 - tid : 자바레벨 ThreadID, 자바프로세스마다 1부터 시작. 겹칠수 있겠다.
@@ -308,7 +310,7 @@ https://fastthread.io/ 사이트로 이동해서, 오른쪽에 있는 곳에 tes
 
 
 #### Thread Dump로 해결가능한 예제
-##### CPU 사용률이 비정상적으로 높을 때  
+##### `CPU 사용률이 비정상적으로 높을 때`  
 애플리케이션을 수행할 때 CPU 사용률이 비정상적으로 높다면 Thread 덤프를 이용하여 문제를 파악할 수 있다.  
 먼저 다음과 같이 CPU를 가장 많이 점유하는 Thread가 무엇인지 추출한다. (리눅스의 경우  : ps -mo pid,lwp,stime,time,cpu -C java)  
 추출한 결과에서 CPU를 가장 많이 사용하는 PID와 NID를 확인한다.  
