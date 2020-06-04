@@ -310,7 +310,7 @@ https://fastthread.io/ 사이트로 이동해서, 오른쪽에 있는 곳에 tes
 
 
 #### Thread Dump로 해결가능한 예제
-##### `CPU 사용률이 비정상적으로 높을 때`  
+##### CPU 사용률이 비정상적으로 높을 때 
 애플리케이션을 수행할 때 CPU 사용률이 비정상적으로 높다면 Thread 덤프를 이용하여 문제를 파악할 수 있다.  
 먼저 다음과 같이 CPU를 가장 많이 점유하는 Thread가 무엇인지 추출한다. (리눅스의 경우  : ps -mo pid,lwp,stime,time,cpu -C java)  
 추출한 결과에서 CPU를 가장 많이 사용하는 PID와 NID를 확인한다.  
