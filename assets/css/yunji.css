@@ -52,11 +52,11 @@ div.excerpt{
 }
 
 blockquote {
-    border-left: 6px solid #f07178;
+    border-left: 6px solid #3d66f7;
     margin: 1em 1em;
     padding: 0.75em 1em;
-    background-color: #f0717824;
-    box-shadow: 0 2px 2px #f0717833;
+    background-color: #3d66f724;
+    box-shadow: 0 2px 2px #3d66f733;
 }
 
 
@@ -75,19 +75,19 @@ blockquote {
 }
 
 i,a,#text{
-    color : #f07178;  
+    color : #3d66f7;  
 }
 .fa-bars, .fa-search, .fa-tags, .fa-facebook-square,
 .fa-envelope-square, .fa-circle{
      color : #262626;
 }
 .tag-anchor a {
-    color: #f07178;
+    color: #3d66f7;
 }
 
 .post-link:hover {
     text-decoration: none;
-    color: #f07178;
+    color: #3d66f7;
 }
 
 .button-link:hover, a.button:hover {
