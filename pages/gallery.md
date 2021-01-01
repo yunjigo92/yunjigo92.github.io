@@ -1,8 +1,8 @@
 ---
-layout: 
+layout: page
 title: TechTree
 subtitle: It's a technology I can do.
-permalink: /TechTree/
+permalink: 
 gallery_path: "assets/img/tech"
 feature-img: "assets/img/pexels/disco.jpg"
 tags: [tech,java,spring,jquery,ajax,javascript,eclipse,jsp,servlet,redis,oracle,mysql,ibais,mybatis,git,github,svn,strust2,aws,secureCRT,starUML]
